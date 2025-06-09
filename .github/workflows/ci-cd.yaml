@@ -28,7 +28,7 @@ jobs:
         with:
           context: ./${{ matrix.component }}
           push: true
-          tags: yourdockerhubuser/book-review-${{ matrix.component }}:latest
+          tags: kamleshjang/book-review-${{ matrix.component }}:latest
 
   deploy:
     needs: build-and-push
